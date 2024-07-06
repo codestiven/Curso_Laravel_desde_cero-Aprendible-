@@ -1,66 +1,119 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Curso de Laravel 10 desde Cero
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Este repositorio contiene los apuntes y proyectos desarrollados durante el curso de Laravel 10 desde cero del canal de YouTube [Aprendible](https://www.youtube.com/playlist?list=PLpKWS6gp0jd_9AD6cRRphOfDoOHQPfMT0).
 
-## About Laravel
+## Descripción
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+En este curso de Laravel 10, aprenderás a usar este framework de PHP desde cero, a través de una serie de videotutoriales donde se enseña paso a paso, ideal para principiantes.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Contenido del Curso
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. **[Introducción al Curso Laravel desde cero (v10)](https://www.youtube.com/watch?v=1)**
+   - Visitas: 8.7K
+   - Duración: 1:58
 
-## Learning Laravel
+2. **[Entorno de desarrollo para Laravel PHP | Curso #Laravel desde cero](https://www.youtube.com/watch?v=2)**
+   - Visitas: 6K
+   - Duración: 2:37
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+3. **[Creando una nueva aplicación de Laravel 10 | Curso #Laravel desde cero](https://www.youtube.com/watch?v=3)**
+   - Visitas: 5.8K
+   - Duración: 3:52
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+4. **[Instalando la autenticación de usuarios | Curso #Laravel desde cero](https://www.youtube.com/watch?v=4)**
+   - Visitas: 5.6K
+   - Duración: 6:41
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+5. **[Soporte multi lenguaje en Laravel 10 | Curso Laravel desde cero](https://www.youtube.com/watch?v=5)**
+   - Visitas: 4.8K
+   - Duración: 6:05
 
-## Laravel Sponsors
+6. **[Rutas en Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=6)**
+   - Visitas: 4.8K
+   - Duración: 7:49
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+7. **[Qué son los Middleware en Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=7)**
+   - Visitas: 4.8K
+   - Duración: 4:48
 
-### Premium Partners
+8. **[Layout y navegación | #Laravel desde cero](https://www.youtube.com/watch?v=8)**
+   - Visitas: 3.6K
+   - Duración: 8:24
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+9. **[Cómo enviar formularios | #Laravel desde cero](https://www.youtube.com/watch?v=9)**
+   - Visitas: 3.4K
+   - Duración: 5:16
 
-## Contributing
+10. **[Qué son las migraciones | #Laravel desde cero](https://www.youtube.com/watch?v=10)**
+    - Visitas: 2.2K
+    - Duración: 7:16
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+11. **[Qué es Eloquent | #Laravel desde cero](https://www.youtube.com/watch?v=11)**
+    - Visitas: 3K
+    - Duración: 5:16
 
-## Code of Conduct
+12. **[Mensajes de sesión en Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=12)**
+    - Visitas: 1.7K
+    - Duración: 4:24
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+13. **[Utilizando controladores en Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=13)**
+    - Visitas: 1.8K
+    - Duración: 3:43
 
-## Security Vulnerabilities
+14. **[Validación de formularios | #Laravel desde cero](https://www.youtube.com/watch?v=14)**
+    - Visitas: 1.7K
+    - Duración: 6:08
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+15. **[Base de datos relacional con Eloquent | #Laravel desde cero](https://www.youtube.com/watch?v=15)**
+    - Visitas: 1.2K
+    - Duración: 3:49
 
-## License
+16. **[Listado de chirps | #Laravel desde cero](https://www.youtube.com/watch?v=16)**
+    - Visitas: 1.2K
+    - Duración: 5:43
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+17. **[Optimizando Consultas en Eloquent: Evitando el Problema N+1 | #Laravel desde cero](https://www.youtube.com/watch?v=17)**
+    - Visitas: 1.4K
+    - Duración: 4:31
+
+18. **[Formulario para editar registros | #Laravel desde cero](https://www.youtube.com/watch?v=18)**
+    - Visitas: 1.3K
+    - Duración: 8:25
+
+19. **[Actualizar registros en base de datos | #Laravel desde cero](https://www.youtube.com/watch?v=19)**
+    - Visitas: 1.1K
+    - Duración: 5:58
+
+20. **[Implementando autorización | #Laravel desde cero](https://www.youtube.com/watch?v=20)**
+    - Visitas: 1K
+    - Duración: 3:22
+
+21. **[Políticas de Acceso en Laravel | #Laravel desde cero](https://www.youtube.com/watch?v=21)**
+    - Visitas: 1.4K
+    - Duración: 2:57
+
+22. **[Cómo eliminar registros de la base de datos | #Laravel desde cero](https://www.youtube.com/watch?v=22)**
+    - Visitas: 1K
+    - Duración: 3:55
+
+23. **[Cómo funciona Vite en producción | #Laravel desde cero](https://www.youtube.com/watch?v=23)**
+    - Visitas: 2.7K
+    - Duración: 5:38
+
+24. **[Deploy de una app de Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=24)**
+    - Visitas: 4.2K
+    - Duración: 10:51
+
+## Requisitos
+
+- PHP >= 8.0
+- Composer
+- Node.js
+- NPM
+
+## Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone <URL_del_repositorio>
