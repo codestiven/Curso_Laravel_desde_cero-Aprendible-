@@ -10,7 +10,11 @@ En este curso de Laravel 10, aprenderás a usar este framework de PHP desde cero
 
 1. **[Introducción al Curso Laravel desde cero (v10)](https://www.youtube.com/watch?v=1)**
    - Visitas: 8.7K
-   - Duración: 1:58
+   - Duración: 1:5
+
+composer require laravel/breeze --dev  
+php artisan breeze:install blade --dark
+
 
 2. **[Entorno de desarrollo para Laravel PHP | Curso #Laravel desde cero](https://www.youtube.com/watch?v=2)**
    - Visitas: 6K
