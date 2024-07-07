@@ -27,14 +27,32 @@ Route::middleware('auth')->group(function () {
 
 
 
+    // Route::get('/Chirps/{chirp?}', function ($chirp = null) {
+    // if($chirp == "coca cola") {
+    //     return to_route('Chirps');
+    // }
 
-    Route::get('/Chirps/{chirp?}', function ($chirp = null) {
-    if($chirp == "coca cola") {
-        return to_route('Chirps');
-    }
+    // return view('cositas', ['chirp' => $chirp]);
 
-    return "coa coal" . $chirp;
-}) ->name('Chirps');
+    // }) ->name('Chirps');
+
+    Route::view('/Chirps', 'cositas') ->name('Chirps');
+
+    Route::post('/Chirps', function () {
+
+        $message = request("message");
+        // insert the message into the database
+    });
+
+
+
+
+
+
+
+
 });
+
+
 
 require __DIR__.'/auth.php';
