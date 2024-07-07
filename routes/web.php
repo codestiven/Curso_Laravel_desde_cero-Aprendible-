@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Chirp;
 
 Route::view( '/', 'welcome') ->name('welcome'); ;
 
@@ -42,6 +43,13 @@ Route::middleware('auth')->group(function () {
 
         $message = request("message");
         // insert the message into the database
+        Chirp::create([
+            "message" => $message,
+            "user_id" => auth()->id()
+
+        ]);
+
+        return to_route('Chirps');
     });
 
 
