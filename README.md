@@ -27,16 +27,22 @@ En este curso de Laravel 10, aprenderás a usar este framework de PHP desde cero
 4. **[Instalando la autenticación de usuarios | Curso #Laravel desde cero](https://www.youtube.com/watch?v=4)**
    - Visitas: 5.6K
    - Duración: 6:41
+```bash
 composer require laravel/breeze --dev  
+
 php artisan breeze:install blade --dark
+
+```
 
 
 5. **[Soporte multi lenguaje en Laravel 10 | Curso Laravel desde cero](https://www.youtube.com/watch?v=5)**
    - Visitas: 4.8K
    - Duración: 6:05
+```bash
 php artisan lang:add es
 composer require --dev laravel-lang/common
 php artisan lang:update
+```
 
 6. **[Rutas en Laravel 10 | #Laravel desde cero](https://www.youtube.com/watch?v=6)**
    - Visitas: 4.8K
