@@ -49,8 +49,12 @@ Route::middleware('auth')->group(function () {
 
         ]);
 
-        return to_route('Chirps');
+
+
+        return to_route('Chirps')->with("success", "Chirp created successfully");
     });
+
+    
 
 
 
