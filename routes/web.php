@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Chirp;
+use App\Http\Controllers\ChirpController;
 
 Route::view( '/', 'welcome') ->name('welcome'); ;
 
@@ -37,22 +38,9 @@ Route::middleware('auth')->group(function () {
 
     // }) ->name('Chirps');
 
-    Route::view('/Chirps', 'cositas') ->name('Chirps');
+    Route::get('/Chirps', [ChirpController::class, 'index']) ->name('Chirps');
 
-    Route::post('/Chirps', function () {
-
-        $message = request("message");
-        // insert the message into the database
-        Chirp::create([
-            "message" => $message,
-            "user_id" => auth()->id()
-
-        ]);
-
-
-
-        return to_route('Chirps')->with("success", "Chirp created successfully");
-    });
+    Route::post('/Chirps', [ChirpController::class, 'store']) ->name('Chirps');
 
     
 
