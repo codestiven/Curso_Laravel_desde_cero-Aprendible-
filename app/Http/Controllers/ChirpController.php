@@ -13,7 +13,7 @@ class ChirpController extends Controller
     public function index()
     {
         return view( 'cositas'  , [
-            "chirps" => Chirp::orderBy('created_at', 'desc')->get(),
+            "chirps" => Chirp::with('user')->latest()->get(),
         ]
     );
     }
