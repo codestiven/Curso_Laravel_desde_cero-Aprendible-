@@ -65,6 +65,7 @@ class ChirpController extends Controller
      */
     public function edit(Chirp $chirp)
     {
+        return view('editCositas', ['chirp' => $chirp]);
         //
     }
 

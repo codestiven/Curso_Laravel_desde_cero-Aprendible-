@@ -42,6 +42,8 @@ Route::middleware('auth')->group(function () {
 
     Route::post('/Chirps', [ChirpController::class, 'store']) ->name('Chirps');
 
+    Route::get('/Chirps/{chirp}/edit', [ChirpController::class, 'edit']) ->name('chirps.edit');
+
     
 
 
