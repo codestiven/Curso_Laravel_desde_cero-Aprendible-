@@ -33,15 +33,19 @@ class ChirpController extends Controller
             "message" => ["required" ,"min:3" ,"max:255"],
         ]);
 
-        Chirp::create([
+        $request -> user() ->chirps() -> create([
             "message" => $request -> message,
-            "user_id" => auth()->id()
-
         ]);
 
+        // Chirp::create([
+        //     "message" => $request -> message,
+        //     "user_id" => auth()->id(),
+
+        // ]);
 
 
-        return to_route('Chirps')->with("success", "Chirp created successfully");
+
+         return to_route('Chirps')->with("success", "Chirp created successfully");
 
     }
 
