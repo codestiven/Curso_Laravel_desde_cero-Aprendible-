@@ -44,6 +44,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/Chirps/{chirp}/edit', [ChirpController::class, 'edit']) ->name('chirps.edit');
 
+    Route::put('/Chirps/{chirp}', [ChirpController::class, 'update']) ->name('chirps.update');
+
     
 
 
