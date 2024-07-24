@@ -65,6 +65,10 @@ class ChirpController extends Controller
      */
     public function edit(Chirp $chirp)
     {
+
+        if (auth()->user()->isNot($chirp->user)) {
+            abort(403);
+        }
         return view('editCositas', ['chirp' => $chirp]);
         //
     }
@@ -74,9 +78,10 @@ class ChirpController extends Controller
      */
     public function update(Request $request, Chirp $chirp)
     {
-        if ($request->user()->cannot('update', $chirp)) {
+        if (auth()->user()->isNot($chirp->user)) {
             abort(403);
         }
+
         $request->validate([
             "message" => ["required", "min:3", "max:255"],
         ]);
