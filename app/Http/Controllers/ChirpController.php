@@ -74,6 +74,9 @@ class ChirpController extends Controller
      */
     public function update(Request $request, Chirp $chirp)
     {
+        if ($request->user()->cannot('update', $chirp)) {
+            abort(403);
+        }
         $request->validate([
             "message" => ["required", "min:3", "max:255"],
         ]);
