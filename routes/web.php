@@ -46,6 +46,8 @@ Route::middleware('auth')->group(function () {
 
     Route::put('/Chirps/{chirp}', [ChirpController::class, 'update']) ->name('chirps.update');
 
+    Route::delete('/Chirps/{chirp}', [ChirpController::class, 'destroy'])->name('chirps.destroy');
+
     
 
 

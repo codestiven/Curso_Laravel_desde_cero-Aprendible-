@@ -98,6 +98,10 @@ class ChirpController extends Controller
      */
     public function destroy(Chirp $chirp)
     {
-        //
+        $this->authorize('delete', $chirp);
+
+        $chirp->delete();
+
+        return to_route('Chirps')->with("success", "Chirp Delete successfully");
     }
 }
