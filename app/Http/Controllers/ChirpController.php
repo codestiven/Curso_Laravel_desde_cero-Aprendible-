@@ -32,6 +32,7 @@ class ChirpController extends Controller
     public function store(Request $request)
     {
 
+
         $request -> validate([
             "message" => ["required" ,"min:3" ,"max:255"],
         ]);
@@ -65,10 +66,11 @@ class ChirpController extends Controller
      */
     public function edit(Chirp $chirp)
     {
+        $this->authorize('update', $chirp);
 
-        if (auth()->user()->isNot($chirp->user)) {
-            abort(403);
-        }
+        // if (auth()->user()->isNot($chirp->user)) {
+        //     abort(403);
+        // }
         return view('editCositas', ['chirp' => $chirp]);
         //
     }
@@ -78,9 +80,7 @@ class ChirpController extends Controller
      */
     public function update(Request $request, Chirp $chirp)
     {
-        if (auth()->user()->isNot($chirp->user)) {
-            abort(403);
-        }
+        $this->authorize('update', $chirp);
 
         $request->validate([
             "message" => ["required", "min:3", "max:255"],

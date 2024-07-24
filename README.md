@@ -130,6 +130,10 @@ php artisan migrate
     -   Visitas: 1.4K
     -   Duración: 2:57
 
+    ```bash
+php artisan make:policy ChirpPolicy --model=Chirp
+```
+
 22. **[Cómo eliminar registros de la base de datos | #Laravel desde cero](https://www.youtube.com/watch?v=22)**
 
     -   Visitas: 1K
